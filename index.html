@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Solar system</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <header>
+            <h1>SOLAR SYSTEM</h1>
+            <p>Click on a planet to launch your rocket there</p>
+        </header>
+
+        <div id="solar-system">
+            <div id="universe">
+
+                <div class="sun"></div>
+
+                <div id="planets"></div>
+
+                    <body>
+        <form class="equipment-form">
+
+            <div class="equipment-grid">
+                <select id="s1">
+                    <option value="">Empty</option>
+                    <option value="1">Chemical engine</option>
+                    <option value="2">Gas engine</option>
+                    <option value="3">Eletrical engine</option>
+                </select>
+
+                <select id="s2">
+                    <option value="">Empty</option>
+                    <option value="1">Bring crew</option>
+                    <option value="2">Bring rover</option>
+                </select>
+
+                <select id="s3">
+                    <option value="">Empty</option>
+                    <option value="1">Extra fuel storage</option>
+                    <option value="2">Stronger shell</option>
+                </select>
+
+                <select id="s4"> 
+                    <option value="">Empty</option>
+                    <option value="1">Extra fuel storage</option>
+                    <option value="2">Stronger shell</option>
+                </select>
+
+                <select id="s5">
+                    <option value="">Empty</option>
+                    <option value="1">Extra science equipment</option>
+                    <option value="2">Extra engneering equipment</option>
+                    <option value="3">Both</option>
+                </select>
+
+                <img src="images/rocket.png" class="rocket">
+            </div>
+            
+            <h1 id="pointer"></h1>
+
+            <input type="submit" value="Launch" id="submit">
+        </form>
+            </div>
+        </div>
+
+        <script src="javasript/simulation.js"></script>
+        <script src="javasript/main.js"></script>
+    </body>
+</html>
